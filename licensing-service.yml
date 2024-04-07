@@ -1,0 +1,21 @@
+
+spring:
+  datasource:
+    username: postgres
+    password: pass
+    url: jdbc:postgresql://localhost:5433/postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    properties.hibernate:
+      use_sql_comments: true
+      format_sql: true
+      show_sql: true
+      hbm2ddl.auto: validate
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        exclude: "*"
