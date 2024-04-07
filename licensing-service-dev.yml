@@ -1,1 +1,5 @@
 example.property= I AM DEV
+spring:
+  jpa:
+    properties.hibernate:
+      use_sql_comments: falce
