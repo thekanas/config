@@ -1,4 +1,4 @@
-example.property: I AM DEV
+example.property: I AM DEV AV
 spring:
   jpa:
     properties.hibernate:
